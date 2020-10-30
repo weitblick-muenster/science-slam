@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Christoph Köhn",
+    "slug": "cristoph-koehn",
+    "age": 36,
+    "subjectArea": "Astrophysik und Atmosphärische Physik",
+    "university": "Technische Universität Dänemark",
+    "slamTitle": null,
+    "socialLinks": null
+  },
+  {
+    "name": "Dirk Arne Heyen",
+    "slug": "dirk-arne-heyen",
+    "age": 35,
+    "subjectArea": "Umweltpolitik",
+    "university": null,
+    "slamTitle": "Nachhaltigkeit braucht Suffizienz braucht Politik",
+    "socialLinks": {
+      "twitter": "DAHeyen"
+    }
+  },
+  {
+    "name": "Janina",
+    "slug": "janina",
+    "age": null,
+    "subjectArea": null,
+    "university": null,
+    "slamTitle": null,
+    "socialLinks": null
+  },
+  {
+    "name": "Ronja",
+    "slug": "ronja",
+    "age": null,
+    "subjectArea": null,
+    "university": null,
+    "slamTitle": null,
+    "socialLinks": null
+  }
+]
