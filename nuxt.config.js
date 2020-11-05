@@ -4,6 +4,9 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
+    htmlAttrs: {
+      lang: 'de',
+    },
     title: 'science-slam',
     meta: [
       { charset: 'utf-8' },
@@ -31,6 +34,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/html-validator',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
