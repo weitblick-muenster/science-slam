@@ -21,10 +21,12 @@ export default {
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     '@/assets/stylesheets/app.scss',
+    '@fortawesome/fontawesome-svg-core/styles.css',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    { src: '@/plugins/font-awesome', mode: 'client' },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -45,6 +47,12 @@ export default {
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},
+
+  fontawesome: {
+    useLayers: true,
+    useLayersText: true,
+    suffix: true,
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
