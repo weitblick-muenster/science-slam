@@ -1,12 +1,13 @@
 [
   {
     "name": "Christoph Köhn",
-    "slug": "cristoph-koehn",
+    "slug": "christoph-koehn",
     "age": 36,
     "subjectArea": "Astrophysik und Atmosphärische Physik",
     "university": "Technische Universität Dänemark",
-    "slamTitle": null,
-    "socialLinks": null
+    "slamTitle": "Das Universum mit zwei Zeitdimensionen.",
+    "social": null,
+    "biography": null
   },
   {
     "name": "Dirk Arne Heyen",
@@ -14,19 +15,25 @@
     "age": 35,
     "subjectArea": "Umweltpolitik",
     "university": null,
-    "slamTitle": "Nachhaltigkeit braucht Suffizienz braucht Politik",
-    "socialLinks": {
+    "slamTitle": "Nachhaltigkeit braucht Suffizienz braucht Politik (Warum bessere Technik und freiwilliges Handeln zur Weltrettung nicht reicht)",
+    "social": {
       "twitter": "DAHeyen"
-    }
+    },
+    "biography": null
   },
   {
-    "name": "Janina",
-    "slug": "janina",
-    "age": null,
-    "subjectArea": null,
+    "name": "Janina Otto",
+    "slug": "janina-otto",
+    "age": 30,
+    "subjectArea": "Humanbiologie",
     "university": null,
-    "slamTitle": null,
-    "socialLinks": null
+    "slamTitle": "Der Staat bin ich – Haben Bakterien eine Wahl?",
+    "social": {
+      "twitter": "ja_0t",
+      "facebook": "JaninaExplainsItAll",
+      "instagram": "JaninaExplainsItAll"
+    },
+    "biography": "Janina Otto hat ihren Bachelor in Biochemie an der Friedrich-Schiller-Universität Jena sowie ihren Master in Humanbiologie an der Philipps-Universität Marburg abgeschlossen. Aktuell promoviert sie dort im Fachbereich Humanbiologie zum Thema Insulinresitenz bei Schlafapnoe. Sie steht seit 2015 erfolgreich als Science Slamerin sowohl in Deutschland als auch im Ausland auf der Bühne (z.B. 2016 in Russland, 2017 in Mexiko oder 2019 in der Schweiz und gewann u.a. den Gesundheits-Slam des HZI im Haus der Wissenschaft und 2019 bei der Scienctifica in Zürich."
   },
   {
     "name": "Ronja",
@@ -35,6 +42,7 @@
     "subjectArea": null,
     "university": null,
     "slamTitle": null,
-    "socialLinks": null
+    "social": null,
+    "biography": null
   }
 ]
