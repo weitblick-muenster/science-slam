@@ -1,6 +1,24 @@
 module.exports = {
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: 'rgb(253, 235, 52)',
+        'primary-dark': '#F8E206',
+        secondary: 'rgb(1, 32, 56)',
+        'secondary-dark': '#030F27',
+        weitblick: '#FF9900',
+
+        twitter: 'rgb(29, 161, 242)',
+        facebook: '#4267B2',
+        instagram: '#833AB4',
+      },
+      boxShadow: {
+        primary: '0 4px 0 rgb(253, 235, 52)',
+      },
+      width: {
+        'fit-content': 'fit-content',
+      },
+    },
   },
   variants: {},
   plugins: [],

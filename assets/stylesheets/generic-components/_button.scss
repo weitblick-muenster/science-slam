@@ -1,0 +1,43 @@
+.button {
+  @apply font-bold py-2 px-8 rounded-full transition-all duration-200;
+}
+
+.button:focus {
+  @apply outline-none;
+}
+
+.button-primary {
+  @extend .button;
+  @apply bg-primary text-secondary;
+}
+
+.button-primary:hover {
+  @apply bg-primary-dark;
+};
+
+.button-primary-outlined {
+  @extend .button;
+  @apply bg-white text-secondary border-2 border-primary;
+}
+
+.button-primary-outlined:hover {
+  @apply text-secondary bg-primary;
+}
+
+.button-secondary {
+  @extend .button;
+  @apply bg-secondary text-primary;
+}
+
+.button-secondary:hover {
+  @apply bg-secondary-dark;
+}
+
+.button-secondary-outlined {
+  @extend .button;
+  @apply bg-white text-secondary border-2 border-secondary;
+}
+
+.button-secondary-outlined:hover {
+  @apply text-white bg-secondary;
+}
