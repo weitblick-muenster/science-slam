@@ -21,12 +21,15 @@ export default {
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     '@/assets/stylesheets/app.scss',
+    'spinkit/spinkit.min.css',
+    'swiper/css/swiper.min.css',
     '@fortawesome/fontawesome-svg-core/styles.css',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     { src: '@/plugins/font-awesome', mode: 'client' },
+    { src: '@/plugins/swiper', mode: 'client' },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)

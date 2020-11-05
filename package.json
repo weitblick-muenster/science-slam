@@ -13,7 +13,10 @@
   "dependencies": {
     "@nuxt/content": "^1.9.0",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "spinkit": "^2.0.1",
+    "swiper": "5.x",
+    "vue-awesome-swiper": "^4.1.1"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
@@ -21,6 +24,8 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@nuxtjs/eslint-config": "^4.0.0",
     "@nuxtjs/eslint-module": "^3.0.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/html-validator": "^0.1.2",
     "@nuxtjs/tailwindcss": "^3.1.0",
     "@vue/cli-service": "^4.5.8",
     "@vue/eslint-config-airbnb": "^5.1.0",
