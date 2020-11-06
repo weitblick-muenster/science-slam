@@ -2,14 +2,17 @@
   <div class="bg-secondary">
     <div class="container mx-auto">
       <nav class="flex items-center justify-between flex-wrap p-6 border-b border-primary">
-        <div class="flex items-center flex-shrink-0 mr-6">
+        <a
+          href="/"
+          class="flex items-center flex-shrink-0 mr-6"
+        >
           <img
             src="~/assets/images/science-slam/logo.png"
             alt="Logo"
             class="w-16 mr-2"
           >
           <span class="text-2xl text-white font-bold hidden md:inline-block">SCIENCE SLAM</span>
-        </div>
+        </a>
 
         <div class="block lg:hidden">
           <button
