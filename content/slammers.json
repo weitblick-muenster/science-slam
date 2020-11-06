@@ -1,21 +1,11 @@
 [
   {
-    "name": "Christoph Köhn",
-    "slug": "christoph-koehn",
-    "age": 36,
-    "subjectArea": "Astrophysik und Atmosphärische Physik",
-    "university": "Technische Universität Dänemark",
-    "slamTitle": "Das Universum mit zwei Zeitdimensionen.",
-    "social": null,
-    "biography": null
-  },
-  {
     "name": "Dirk Arne Heyen",
     "slug": "dirk-arne-heyen",
     "age": 35,
     "subjectArea": "Umweltpolitik",
     "university": null,
-    "slamTitle": "Nachhaltigkeit braucht Suffizienz braucht Politik (Warum bessere Technik und freiwilliges Handeln zur Weltrettung nicht reicht)",
+    "slamTitle": "Nachhaltigkeit braucht Suffizienz braucht Politik",
     "social": {
       "twitter": "DAHeyen"
     },
@@ -33,11 +23,21 @@
       "facebook": "JaninaExplainsItAll",
       "instagram": "JaninaExplainsItAll"
     },
-    "biography": "Janina Otto hat ihren Bachelor in Biochemie an der Friedrich-Schiller-Universität Jena sowie ihren Master in Humanbiologie an der Philipps-Universität Marburg abgeschlossen. Aktuell promoviert sie dort im Fachbereich Humanbiologie zum Thema Insulinresitenz bei Schlafapnoe. Sie steht seit 2015 erfolgreich als Science Slamerin sowohl in Deutschland als auch im Ausland auf der Bühne (z.B. 2016 in Russland, 2017 in Mexiko oder 2019 in der Schweiz und gewann u.a. den Gesundheits-Slam des HZI im Haus der Wissenschaft und 2019 bei der Scienctifica in Zürich."
+    "biography": "Janina Otto steht seit 2015 erfolgreich als Science Slamerin sowohl in Deutschland als auch im Ausland auf der Bühne (z.B. 2016 in Russland, 2017 in Mexiko oder 2019 in der Schweiz und gewann u.a. den Gesundheits-Slam des HZI im Haus der Wissenschaft und 2019 bei der Scienctifica in Zürich.<br>Aktuell promoviert sie im Fachbereich Humanbiologie zum Thema Insulinresitenz bei Schlafapnoe."
   },
   {
-    "name": "Ronja",
-    "slug": "ronja",
+    "name": "Christoph Köhn",
+    "slug": "christoph-koehn",
+    "age": 36,
+    "subjectArea": "Astrophysik und Atmosphärische Physik",
+    "university": "Technische Universität Dänemark",
+    "slamTitle": "Das Universum mit zwei Zeitdimensionen.",
+    "social": null,
+    "biography": null
+  },
+  {
+    "name": "Ronja Lau",
+    "slug": "ronja-lau",
     "age": null,
     "subjectArea": null,
     "university": null,
