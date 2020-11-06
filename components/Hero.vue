@@ -57,7 +57,7 @@
         <img
           src="~/assets/images/science-slam/logo.png"
           alt="Logo"
-          class="block md:hidden absolute w-48 top-0 right-0 m-auto"
+          class="hidden sm:block md:hidden absolute w-48 top-0 right-0 m-auto"
         >
       </div>
     </div>
