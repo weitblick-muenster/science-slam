@@ -21,12 +21,10 @@
             class="px-3 py-2 rounded text-primary focus:outline-none"
             @click="showMobileMenu = !showMobileMenu"
           >
-            <FontAwesomeLayers class="fa-2x">
-              <FontAwesomeIcon
-                :icon="showMobileMenu ? 'times' : 'bars'"
-                class="text-primary"
-              />
-            </FontAwesomeLayers>
+            <FontAwesomeIcon
+              :icon="showMobileMenu ? 'times' : 'bars'"
+              class="text-primary fa-2x"
+            />
           </button>
         </div>
 
