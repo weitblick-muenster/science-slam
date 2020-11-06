@@ -32,18 +32,18 @@
           :class="{ 'block': showMobileMenu, 'hidden': !showMobileMenu }"
         >
           <div class="lg:flex-grow text-xl font-bold">
-            <NavLink href="#">
+            <a href="#stream" class="nav-link">
               Stream
-            </NavLink>
-            <NavLink href="#">
-              Unsere Slammer*innen
-            </NavLink>
-            <NavLink href="#">
+            </a>
+            <a href="#themen" class="nav-link">
+              Unsere Themen
+            </a>
+            <a href="#ueber-weitblick" class="nav-link">
               Über Weitblick
-            </NavLink>
-            <NavLink href="#">
-              Hilfe
-            </NavLink>
+            </a>
+            <a href="#sponsoren" class="nav-link">
+              Unsere Sponsoren
+            </a>
           </div>
         </div>
       </nav>

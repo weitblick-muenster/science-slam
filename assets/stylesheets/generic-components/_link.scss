@@ -1,0 +1,13 @@
+.nav-link {
+  @apply no-underline block mt-4 text-primary transition-all duration-300 mr-4 w-fit-content
+}
+
+.nav-link:hover {
+  @apply shadow-primary;
+}
+
+@screen lg {
+  .nav-link {
+    @apply inline-block mt-0;
+  }
+}
