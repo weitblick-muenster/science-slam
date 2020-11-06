@@ -43,7 +43,7 @@ jobs:
   build:
     runs-on: ${{ matrix.os }}
     needs: ci
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
 
     strategy:
       matrix:
