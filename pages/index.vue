@@ -3,6 +3,8 @@
     <Hero />
     <Stream />
     <SlammerInfo :slammers="slammers" />
+    <AboutWeitblick />
+    <FollowUs />
   </div>
 </template>
 
