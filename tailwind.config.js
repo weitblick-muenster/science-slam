@@ -32,6 +32,7 @@ module.exports = {
       },
       boxShadow: {
         primary: '0 4px 0 rgb(253, 235, 52)',
+        secondary: '0 2px 0 rgb(1, 32, 56)',
       },
       width: {
         'fit-content': 'fit-content',
