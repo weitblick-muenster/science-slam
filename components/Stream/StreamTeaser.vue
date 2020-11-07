@@ -12,16 +12,7 @@
     </div>
 
     <div class="w-full text-center">
-      <iframe
-        v-show="showStream"
-        title="Stream"
-        class="inline-block"
-        width="560"
-        height="315"
-        src="https://www.youtube-nocookie.com/embed/NpEaa2P7qZI"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      />
+      <Stream v-show="showStream"/>
 
       <template v-if="!showStream">
         <ClientOnly>
@@ -47,7 +38,7 @@
 import { confetti } from 'dom-confetti';
 
 export default {
-  name: 'Stream',
+  name: 'StreamTeaser',
   props: {
     // Date in ISO8601 format
     startsAt: {

@@ -2,7 +2,7 @@
   <ClientOnly>
     <VueCountdown
       ref="countdown"
-      :time="timeLeft"
+      :time="3000"
       :auto-start="false"
       :emit-events="true"
       :interval="1000"
