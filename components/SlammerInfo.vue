@@ -1,22 +1,15 @@
 <template>
   <div class="bg-secondary text-white">
-    <div class="container mx-auto px-8 py-16">
-      <div class="w-full flex">
-        <h2 class="text-xl font-bold uppercase mb-2 mr-2">Unsere Slammer*innen:</h2>
-      </div>
+    <BaseSection>
+      <h2 class="text-4xl font-bold mb-2">Unsere Themen</h2>
 
       <div class="w-full flex flex-wrap">
-        <Slammer
-          v-for="slammer in slammers"
-          :key="slammer.slug"
-          :slammer="slammer"
-        />
-        <!-- TODO: Maybe add the slider on the mobile view and leave out biographies
         <ClientOnly>
           <Swiper :options="swiperOptions">
             <SwiperSlide
               v-for="slammer in slammers"
               :key="slammer.slug"
+              class="px-0 py-10 sm:py-12 sm:px-16"
             >
               <Slammer :slammer="slammer" />
             </SwiperSlide>
@@ -27,9 +20,9 @@
           </Swiper>
 
           <Spinner slot="placeholder" />
-        </ClientOnly> -->
+        </ClientOnly>
       </div>
-    </div>
+    </BaseSection>
   </div>
 </template>
 
@@ -49,7 +42,7 @@ export default {
         speed: 500,
         centeredSlides: true,
         slidesPerView: 1,
-        spaceBetween: 0,
+        spaceBetween: 50,
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
@@ -69,9 +62,21 @@ export default {
 .swiper-button-next,
 .swiper-button-prev {
   @apply text-primary #{!important};
+
+  &:focus {
+    @apply outline-none #{!important};
+  }
+}
+
+.swiper-pagination-bullet {
+  @apply bg-gray-300 #{!important};
 }
 
 .swiper-pagination-bullet-active {
   @apply bg-primary #{!important};
+}
+
+.swiper-pagination-bullet:focus {
+  @apply outline-none #{!important};
 }
 </style>

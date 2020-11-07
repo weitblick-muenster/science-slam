@@ -41,3 +41,12 @@
 .button-secondary-outlined:hover {
   @apply text-white bg-secondary;
 }
+
+.button-weitblick {
+  @extend .button;
+  @apply bg-weitblick text-white;
+}
+
+.button-weitblick:hover {
+  @apply bg-weitblick-dark;
+};

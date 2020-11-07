@@ -11,17 +11,20 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
+    "@chenfengyuan/vue-countdown": "^1.1.5",
     "@nuxt/content": "^1.9.0",
     "core-js": "^3.6.5",
+    "dom-confetti": "^0.2.2",
     "nuxt": "^2.14.6",
     "spinkit": "^2.0.1",
     "swiper": "5.x",
-    "vue-awesome-swiper": "^4.1.1"
+    "vue-awesome-swiper": "^4.1.1",
+    "vue2-smooth-scroll": "^1.5.0"
   },
   "devDependencies": {
-    "@fortawesome/free-brands-svg-icons": "^5.15.1",
-    "@fortawesome/free-solid-svg-icons": "5.14.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "5.15.1",
     "@nuxtjs/eslint-config": "^4.0.0",
     "@nuxtjs/eslint-module": "^3.0.0",
     "@nuxtjs/fontawesome": "^1.1.2",
@@ -34,7 +37,7 @@
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-nuxt": "^1.0.0",
     "fibers": "^5.0.0",
-    "sass": "^1.28.0",
+    "sass": "^1.29.0",
     "sass-loader": "^10.0.5"
   }
 }
