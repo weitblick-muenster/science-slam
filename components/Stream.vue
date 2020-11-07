@@ -12,23 +12,8 @@
     </div>
 
     <div class="w-full text-center">
-      <ClientOnly>
-        <StreamCountdown
-          ref="countdown"
-          :deadline="startsAt"
-          @end="onCountdownEnd"
-        />
-
-        <Spinner slot="placeholder" />
-      </ClientOnly>
-
-      <div
-        ref="confettiHolder"
-        class="w-fit-content m-auto confetti-holder"
-      />
-
       <iframe
-        v-if="showStream"
+        v-show="showStream"
         title="Stream"
         class="inline-block"
         width="560"
@@ -37,6 +22,23 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
+
+      <template v-if="!showStream">
+        <ClientOnly>
+          <StreamCountdown
+            ref="countdown"
+            :deadline="startsAt"
+            @end="onCountdownEnd"
+          />
+
+          <Spinner slot="placeholder" />
+        </ClientOnly>
+
+        <div
+          ref="confettiHolder"
+          class="w-fit-content m-auto confetti-holder"
+        />
+      </template>
     </div>
   </div>
 </template>
