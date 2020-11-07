@@ -29,21 +29,23 @@
             </div>
           </div>
 
-          <!-- <button
-            type="button"
-            class="button-primary mt-4 flex items-center text-center"
-          >
-            <span class="mr-2">
-              Soli Tickets!
-            </span>
+          <!-- <div class="w-full mt-12">
+            <a
+              type="button"
+              class="button-primary flex items-center text-center justify-center max-w-xs"
+            >
+              <span class="flex items-center">
+                <FontAwesomeIcon
+                  icon="ticket-alt"
+                  class="inline-flex"
+                />
+              </span>
 
-            <span class="flex items-center">
-              <FontAwesomeIcon
-                icon="ticket-alt"
-                class="inline-flex"
-              />
-            </span>
-          </button> -->
+              <span class="ml-2">
+                Soli Tickets!
+              </span>
+            </a>
+          </div> -->
         </div>
 
         <div class="items-center w-1/3 relative hidden lg:flex">
