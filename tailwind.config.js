@@ -17,6 +17,9 @@ module.exports = {
       '7xl': '5rem',
     },
     extend: {
+      screens: {
+        xsm: '360px',
+      },
       colors: {
         primary: 'rgb(253, 235, 52)',
         'primary-dark': '#F8E206',
