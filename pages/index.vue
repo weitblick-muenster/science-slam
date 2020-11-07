@@ -2,8 +2,10 @@
   <div>
     <Hero />
     <Stream id="stream" :startsAt="streamStartsAt" />
+    <SlammerInfo id="themen" :slammers="slammers" />
+    <AboutWeitblick id="ueber-weitblick" />
     <FollowUs />
-    <Sponsors :sponsors="sponsors" />
+    <Sponsors id="sponsoren" :sponsors="sponsors" />
   </div>
 </template>
 

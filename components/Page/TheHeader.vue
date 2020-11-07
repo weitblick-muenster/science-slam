@@ -33,16 +33,16 @@
           :class="{ 'block': showMobileMenu, 'hidden': !showMobileMenu }"
         >
           <div class="lg:flex-grow text-xl font-bold">
-            <a href="#stream" class="nav-link">
+            <a href="/#stream" class="nav-link" @click="showMobileMenu = false" v-smooth-scroll>
               Stream
             </a>
-            <a href="#themen" class="nav-link">
+            <a href="/#themen" class="nav-link" @click="showMobileMenu = false" v-smooth-scroll>
               Unsere Themen
             </a>
-            <a href="#ueber-weitblick" class="nav-link">
+            <a href="/#ueber-weitblick" class="nav-link" @click="showMobileMenu = false" v-smooth-scroll>
               Über Weitblick
             </a>
-            <a href="#sponsoren" class="nav-link">
+            <a href="/#sponsoren" class="nav-link" @click="showMobileMenu = false" v-smooth-scroll>
               Unsere Sponsoren
             </a>
           </div>
