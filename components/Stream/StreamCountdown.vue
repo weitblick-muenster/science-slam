@@ -2,12 +2,13 @@
   <ClientOnly>
     <VueCountdown
       ref="countdown"
-      :time="3000"
+      :time="timeLeft"
       :auto-start="false"
       :emit-events="true"
       :interval="1000"
       @end="$emit('end')"
-      class=""
+      tag="div"
+      class="mb-4"
     >
       <template slot-scope="{ days, hours, minutes, seconds }">
         <ul class="countdown m-0 p-0 list-none w-fit-content mx-auto">

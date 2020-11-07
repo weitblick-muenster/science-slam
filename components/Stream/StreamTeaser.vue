@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto px-8 py-12 md:py-16">
-    <div class="w-full mb-4">
+    <div class="w-full mb-4 text-center">
       <h2 class="text-4xl font-bold mb-2">Hier geht's zum Stream:</h2>
       <p class="text-lg leading-loose">
         Weitblick Münster veranstaltet jedes Semester einen Science Slam.
@@ -28,7 +28,13 @@
         <div
           ref="confettiHolder"
           class="w-fit-content m-auto confetti-holder"
+          :style="{ height: '.5px' }"
         />
+
+        <div>
+          Schau dir in der Zwischenzeit unsere Themen an!
+          <FontAwesomeIcon icon="arrow-alt-circle-down" class="rounded-full p-0 text-secondary bg-white" />
+        </div>
       </template>
     </div>
   </div>
