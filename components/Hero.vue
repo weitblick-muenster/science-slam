@@ -4,7 +4,7 @@
       <div class="flex mb-4 relative">
         <div class="lg:w-2/3">
           <div class="text-white">
-            <h1 class="font-bold text-4.75xl md:text-6xl">SCIENCE SLAM</h1>
+            <h1 class="font-bold text-4.25xl sm:text-4.75xl md:text-6xl">SCIENCE SLAM</h1>
 
             <div class="right-0 text-lg md:text-xl">
               <span>präsentiert von</span>
