@@ -14,6 +14,7 @@
     <div class="w-full text-center">
       <ClientOnly>
         <StreamCountdown
+          ref="countdown"
           :deadline="startsAt"
           @end="onCountdownEnd"
         />
@@ -64,7 +65,10 @@ export default {
     onCountdownEnd() {
       confetti(this.$refs.confettiHolder);
       const vm = this;
-      setTimeout(() => { vm.showStream = true; }, 3000);
+      setTimeout(() => {
+        vm.showStream = true;
+        vm.$refs.countdown.$destroy();
+      }, 3000);
     },
   },
 };

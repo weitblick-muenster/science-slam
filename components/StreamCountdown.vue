@@ -60,6 +60,9 @@ export default {
       this.$refs.countdown.start();
     });
   },
+  destroyed() {
+    this.$el.remove();
+  },
   filters: {
     leadingZero(number) {
       return number < 10 ? `0${number}` : number;
