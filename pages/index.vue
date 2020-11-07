@@ -1,9 +1,7 @@
 <template>
   <div>
     <Hero />
-    <Stream />
-    <SlammerInfo :slammers="slammers" />
-    <AboutWeitblick />
+    <Stream id="stream" :startsAt="streamStartsAt" />
     <FollowUs />
     <Sponsors :sponsors="sponsors" />
   </div>
@@ -18,6 +16,11 @@ export default {
     return {
       slammers,
       sponsors,
+    };
+  },
+  data() {
+    return {
+      streamStartsAt: '2020-11-23T19:00:00+00:00',
     };
   },
 };
