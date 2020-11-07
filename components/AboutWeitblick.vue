@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-8 py-12 md:py-16">
+  <BaseSection>
     <h2 class="text-4xl font-bold mb-2">Über Weitblick</h2>
 
     <div class="flex flex-wrap-reverse md:flex-row-reverse">
@@ -53,5 +53,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </BaseSection>
 </template>

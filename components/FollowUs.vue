@@ -1,10 +1,10 @@
 <template>
   <div class="bg-bluegray">
-    <div class="container mx-auto px-8 py-12 md:py-16">
+    <BaseSection>
       <div class="w-full">
         <h2 class="text-4xl font-bold mb-2">Folge uns!</h2>
 
-        <div class="leading-loose mt-4">
+        <div class="leading-loose mt-4 text-lg">
           Du willst auf dem Laufenden bleiben?
           Folge uns doch auf unseren Social Media Kanälen und verpasse keine Neuigkeiten!
         </div>
@@ -33,6 +33,6 @@
           </a>
         </div>
       </div>
-    </div>
+    </BaseSection>
   </div>
 </template>

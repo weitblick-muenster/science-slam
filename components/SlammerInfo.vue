@@ -1,6 +1,6 @@
 <template>
   <div class="bg-secondary text-white">
-    <div class="container mx-auto px-8 py-16">
+    <BaseSection>
       <h2 class="text-4xl font-bold mb-2">Unsere Themen</h2>
 
       <div class="w-full flex flex-wrap">
@@ -22,7 +22,7 @@
           <Spinner slot="placeholder" />
         </ClientOnly>
       </div>
-    </div>
+    </BaseSection>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-8 py-12 md:py-16">
+  <BaseSection>
     <div class="w-full mb-4 text-center">
       <h2 class="text-4xl font-bold mb-2">Hier geht's zum Stream:</h2>
       <p class="text-lg leading-loose">
@@ -37,7 +37,7 @@
         </div>
       </template>
     </div>
-  </div>
+  </BaseSection>
 </template>
 
 <script>
