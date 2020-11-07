@@ -1,5 +1,6 @@
 [
   {
+    "position": 2,
     "name": "Dirk Arne Heyen",
     "slug": "dirk-arne-heyen",
     "age": 35,
@@ -12,6 +13,7 @@
     "biography": null
   },
   {
+    "position": 1,
     "name": "Janina Otto",
     "slug": "janina-otto",
     "age": 30,
@@ -26,6 +28,7 @@
     "biography": "Janina Otto steht seit 2015 erfolgreich als Science Slamerin sowohl in Deutschland als auch im Ausland auf der Bühne (z.B. 2016 in Russland, 2017 in Mexiko oder 2019 in der Schweiz und gewann u.a. den Gesundheits-Slam des HZI im Haus der Wissenschaft und 2019 bei der Scienctifica in Zürich.<br>Aktuell promoviert sie im Fachbereich Humanbiologie zum Thema Insulinresitenz bei Schlafapnoe."
   },
   {
+    "position": 4,
     "name": "Christoph Köhn",
     "slug": "christoph-koehn",
     "age": 36,
@@ -36,6 +39,7 @@
     "biography": null
   },
   {
+    "position": 3,
     "name": "Ronja Lau",
     "slug": "ronja-lau",
     "age": null,

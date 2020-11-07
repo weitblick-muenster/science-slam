@@ -12,8 +12,8 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const slammers = await $content('/slammers').fetch();
-    const sponsors = await $content('/sponsors').fetch();
+    const slammers = await $content('/slammers').sortBy('position', 'asc').fetch();
+    const sponsors = await $content('/sponsors').sortBy('position', 'asc').fetch();
 
     return {
       slammers,
