@@ -1,9 +1,9 @@
 <template>
   <BaseSection>
-    <h2 class="font-bold text-4xl mb-4">Datenschutzhinweise</h2>
+    <h1 class="font-bold text-4xl mb-4">Datenschutzhinweise</h1>
 
     <div class="leading-loose text-lg">
-      <h3 class="privacy-headline">Allgemeine Hinweise</h3>
+      <h2 class="privacy-headline">Allgemeine Hinweise</h2>
       <div class="privacy-section">
         Die folgenden Hinweise geben einen einfachen Überblick darüber,
         was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen.
@@ -12,7 +12,7 @@
         aufgeführten Datenschutzerklärung.
       </div>
 
-      <h3 class="privacy-headline">Kontakt</h3>
+      <h2 class="privacy-headline">Kontakt</h2>
       <div class="privacy-section">
         <div class="mb-2">
           Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
@@ -29,7 +29,7 @@
         </div>
       </div>
 
-      <h3 class="privacy-headline">Zuständige Aufsichtsbehörde</h3>
+      <h2 class="privacy-headline">Zuständige Aufsichtsbehörde</h2>
       <div class="privacy-section">
         <div class="mb-2">
           Sie haben das Recht, sich über die Verarbeitung personenbezogener Daten durch uns bei einer
@@ -46,14 +46,14 @@
         </div>
       </div>
 
-      <h3 class="privacy-headline">Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
+      <h2 class="privacy-headline">Widerruf Ihrer Einwilligung zur Datenverarbeitung</h2>
       <div class="privacy-section">
         Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine
         bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns.
         Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
       </div>
 
-      <h3 class="privacy-headline">Recht auf Datenübertragbarkeit</h3>
+      <h2 class="privacy-headline">Recht auf Datenübertragbarkeit</h2>
       <div class="privacy-section">
         Ihnen steht das Recht zu, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags
         automatisiert verarbeiten, an sich oder an Dritte aushändigen zu lassen. Die Bereitstellung erfolgt in einem
@@ -61,7 +61,7 @@
         verlangen, erfolgt dies nur, soweit es technisch machbar ist.
       </div>
 
-      <h3 class="privacy-headline">Recht auf Auskunft, Berichtigung, Sperrung, Löschung</h3>
+      <h2 class="privacy-headline">Recht auf Auskunft, Berichtigung, Sperrung, Löschung</h2>
       <div class="privacy-section">
         <div>
           Auf unseren Internetseiten kommen Cookies zum Einsatz. Cookies sind kleine Textinformationen,
@@ -81,7 +81,7 @@
         </div>
       </div>
 
-      <h3 class="privacy-headline">Server-Log-Dateien</h3>
+      <h2 class="privacy-headline">Server-Log-Dateien</h2>
       <div class="privacy-section">
         <div>
           In Server-Log-Dateien erhebt und speichert der Provider (Github Pages) der Website automatisch
@@ -113,7 +113,7 @@
         </div>
       </div>
 
-      <h3 class="privacy-headline">Anfrage per E-Mail, Telefon oder Telefax</h3>
+      <h2 class="privacy-headline">Anfrage per E-Mail, Telefon oder Telefax</h2>
       <div class="privacy-section">
         Wenn Sie uns per E-Mail oder Telefon kontaktieren, wird Ihre Anfrage inklusive aller daraus
         hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens
