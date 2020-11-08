@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-secondary">
+  <div :class="headerWrapperCssClasses">
     <div class="container mx-auto">
-      <nav class="flex items-center justify-between flex-wrap p-6 border-b border-primary">
+      <nav :class="navCssClasses">
         <a
           href="/"
           class="flex items-center flex-shrink-0 mr-6"
@@ -11,19 +11,19 @@
             alt="Logo"
             class="w-16 mr-2"
           >
-          <span class="text-2xl text-white font-bold hidden md:inline-block">SCIENCE SLAM</span>
+          <span :class="logoTextCssClasses">SCIENCE SLAM</span>
         </a>
 
         <div class="block lg:hidden">
           <button
             title="Menu"
             type="button"
-            class="px-3 py-2 rounded text-primary focus:outline-none"
+            :class="menuButtonCssClasses"
             @click="showMobileMenu = !showMobileMenu"
           >
             <FontAwesomeIcon
               :icon="showMobileMenu ? 'times' : 'bars'"
-              class="text-primary fa-2x"
+              class="fa-2x"
             />
           </button>
         </div>
@@ -33,17 +33,13 @@
           :class="{ 'block': showMobileMenu, 'hidden': !showMobileMenu }"
         >
           <div class="lg:flex-grow text-xl font-bold">
-            <a href="#stream" class="nav-link" @click="showMobileMenu = false" v-smooth-scroll>
-              Stream
-            </a>
-            <a href="#themen" class="nav-link" @click="showMobileMenu = false" v-smooth-scroll>
-              Unsere Themen
-            </a>
-            <a href="#ueber-weitblick" class="nav-link" @click="showMobileMenu = false" v-smooth-scroll>
-              Über Weitblick
-            </a>
-            <a href="#sponsoren" class="nav-link" @click="showMobileMenu = false" v-smooth-scroll>
-              Unsere Sponsoren
+            <a
+              v-for="section in linkedSections"
+              :key="section.containerId"
+              :class="navLinkCssClasses"
+              @click="scrollToSection(section.containerId)"
+            >
+              {{ section.title }}
             </a>
           </div>
         </div>
@@ -55,10 +51,131 @@
 <script>
 export default {
   name: 'TheHeader',
+  props: {
+    colorScheme: {
+      type: String,
+      default: 'primary',
+      validator(value) {
+        return ['primary', 'secondary'].indexOf(value) !== -1;
+      },
+    },
+  },
   data() {
     return {
       showMobileMenu: false,
+      linkedSections: [
+        {
+          title: 'Stream',
+          containerId: 'stream',
+        },
+        {
+          title: 'Unsere Themen',
+          containerId: 'themen',
+        },
+        {
+          title: 'Über Weitblick',
+          containerId: 'ueber-weitblick',
+        },
+        {
+          title: 'Unsere Sponsoren',
+          containerId: 'sponsoren',
+        },
+      ],
     };
+  },
+  computed: {
+    headerWrapperCssClasses() {
+      return [
+        {
+          'bg-secondary': this.hasPrimaryColorScheme,
+          'bg-white': this.hasSecondaryColorScheme,
+        },
+      ];
+    },
+    navCssClasses() {
+      return [
+        'flex',
+        'items-center',
+        'justify-between',
+        'flex-wrap',
+        'p-6',
+        'border-b',
+        {
+          'border-primary': this.hasPrimaryColorScheme,
+          'border-secondary': this.hasSecondaryColorScheme,
+        },
+      ];
+    },
+    logoTextCssClasses() {
+      return [
+        'text-2xl',
+        'font-bold',
+        'hidden',
+        'md:inline-block',
+        {
+          'text-white': this.hasPrimaryColorScheme,
+          'text-secondary': this.hasSecondaryColorScheme,
+        },
+      ];
+    },
+    menuButtonCssClasses() {
+      return [
+        'px-3',
+        'py-2',
+        'rounded',
+        'focus:outline-none',
+        {
+          'text-primary': this.hasPrimaryColorScheme,
+          'text-secondary': this.hasSecondaryColorScheme,
+        },
+      ];
+    },
+    navLinkCssClasses() {
+      return [
+        'no-underline',
+        'block',
+        'mt-4',
+        'transition-all',
+        'duration-300',
+        'mr-4',
+        'w-fit-content',
+        'lg:inline-block',
+        'lg:mt-0',
+        {
+          'text-primary': this.hasPrimaryColorScheme,
+          'text-secondary': this.hasSecondaryColorScheme,
+          'hover:shadow-primary': this.hasPrimaryColorScheme,
+          'hover:shadow-secondary': this.hasSecondaryColorScheme,
+        },
+      ];
+    },
+
+    hasPrimaryColorScheme() {
+      return this.colorScheme === 'primary';
+    },
+    hasSecondaryColorScheme() {
+      return this.colorScheme === 'secondary';
+    },
+  },
+  methods: {
+    scrollToSection(containerId) {
+      const routeName = this.$nuxt.$route.name;
+
+      if (routeName === 'index') {
+        const scrollTo = document.getElementById(containerId);
+
+        if (scrollTo) {
+          this.$smoothScroll({
+            scrollTo: document.getElementById(containerId),
+          });
+        } else {
+          // eslint-disable-next-line no-console
+          console.warn(`No HTML element with the ID '${containerId}' was found.`);
+        }
+      } else {
+        this.$router.push({ path: '/', hash: containerId });
+      }
+    },
   },
 };
 </script>

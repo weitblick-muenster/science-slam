@@ -18,6 +18,11 @@ export default {
     ],
   },
 
+  loading: {
+    color: 'rgb(253, 235, 52)',
+    height: '5px',
+  },
+
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     '@/assets/stylesheets/app.scss',
