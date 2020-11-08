@@ -74,9 +74,15 @@ export default {
         'transition-all',
         'ease-in-out',
         'duration-300',
-        `text-${provider}`,
         'hover:text-white',
-        `hover:bg-${provider}`,
+        {
+          'text-twitter': provider === 'twitter',
+          'hover:bg-twitter': provider === 'twitter',
+          'text-instagram': provider === 'instagram',
+          'hover:bg-instagram': provider === 'instagram',
+          'text-facebook': provider === 'facebook',
+          'hover:bg-facebook': provider === 'facebook',
+        },
       ];
     },
   },
