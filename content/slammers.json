@@ -5,7 +5,6 @@
     "slug": "dirk-arne-heyen",
     "age": 35,
     "subjectArea": "Umweltpolitik",
-    "university": null,
     "slamTitle": "Nachhaltigkeit braucht Suffizienz braucht Politik",
     "social": {
       "twitter": "DAHeyen"
@@ -18,14 +17,13 @@
     "slug": "janina-otto",
     "age": 30,
     "subjectArea": "Humanbiologie",
-    "university": null,
     "slamTitle": "Der Staat bin ich – Haben Bakterien eine Wahl?",
     "social": {
       "twitter": "ja_0t",
       "facebook": "JaninaExplainsItAll",
       "instagram": "JaninaExplainsItAll"
     },
-    "biography": "Janina Otto steht seit 2015 erfolgreich als Science Slamerin sowohl in Deutschland als auch im Ausland auf der Bühne (z.B. 2016 in Russland, 2017 in Mexiko oder 2019 in der Schweiz und gewann u.a. den Gesundheits-Slam des HZI im Haus der Wissenschaft und 2019 bei der Scienctifica in Zürich.<br>Aktuell promoviert sie im Fachbereich Humanbiologie zum Thema Insulinresitenz bei Schlafapnoe."
+    "biography": "Janina Otto hat ihren Bachelor in Biochemie an der Friedrich-Schiller-Universität Jena sowie ihren Master in Humanbiologie an der Philipps-Universität Marburg abgeschlossen. Aktuell promoviert sie dort im Fachbereich Humanbiologie zum Thema Insulinresitenz bei Schlafapnoe.<br>Sie steht seit 2015 erfolgreich als Science Slamerin sowohl in Deutschland als auch im Ausland auf der Bühne (z.B. 2016 in Russland, 2017 in Mexiko oder 2019 in der Schweiz und gewann u.a. den Gesundheits-Slam des HZI im Haus der Wissenschaft und 2019 bei der Scienctifica in Zürich."
   },
   {
     "position": 4,
@@ -33,7 +31,6 @@
     "slug": "christoph-koehn",
     "age": 36,
     "subjectArea": "Astrophysik und Atmosphärische Physik",
-    "university": "Technische Universität Dänemark",
     "slamTitle": "Das Universum mit zwei Zeitdimensionen.",
     "social": null,
     "biography": null
@@ -42,11 +39,12 @@
     "position": 3,
     "name": "Ronja Lau",
     "slug": "ronja-lau",
-    "age": null,
-    "subjectArea": null,
-    "university": null,
-    "slamTitle": null,
-    "social": null,
-    "biography": null
+    "age": 26,
+    "subjectArea": "Prähistorische Archäologie",
+    "slamTitle": "Die hatten doch nur Kartoffelsäcke!?",
+    "social": {
+      "instagram": "_ronja_lau_"
+    },
+    "biography": "Seit meinem Bachelor Studium beschäftige ich mich intensiv mit der textilarchäologischen Analyse prähistorischer Gewebe in großen Teilen Mittel- und Osteuropas.<br>Das Thema meines Slams „Die hatten doch nur Kartoffelsäcke!?“ basiert auf meiner Masterarbeit zu eisenzeitlichen Textilien aus Slowenien, die fast 3000 Jahre alt sind.<br>Zusätzlich versuche ich mit Rekonstruktionen, Living History und Science Slams meine Forschung transparent zu vermitteln. Aktuell bin ich Doktorandin an der Ruhr Universität Bochum (Bergbauarchäologie) und erforsche eisenzeitliche Textilien aus dem Salzbergwerk Dürrnberg in Österreich."
   }
 ]
