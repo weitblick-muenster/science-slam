@@ -17,7 +17,6 @@
         <div class="block lg:hidden">
           <button
             title="Menu"
-            type="button"
             :class="menuButtonCssClasses"
             @click="showMobileMenu = !showMobileMenu"
           >

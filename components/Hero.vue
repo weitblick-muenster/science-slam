@@ -31,7 +31,6 @@
 
           <!-- <div class="w-full mt-12">
             <a
-              type="button"
               class="button-primary flex items-center text-center justify-center max-w-xs"
             >
               <span class="flex items-center">

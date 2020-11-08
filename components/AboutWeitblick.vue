@@ -28,7 +28,6 @@
             <a
               href="https://infoabend.weitblicker.live"
               target="_blank"
-              type="button"
               class="button-weitblick flex items-center justify-center max-w-xs mx-auto"
             >
               <span class="flex items-center">
