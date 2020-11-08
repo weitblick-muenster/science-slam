@@ -11703,6 +11703,11 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
+tailwindcss-hyphens@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-hyphens/-/tailwindcss-hyphens-0.1.0.tgz#b119219d9b53626178e59e925b81760eb06d58eb"
+  integrity sha512-Fdbb37iC3G33RX5YaIkBjT7NM0qL6EhE1ifMy6MdQkybpo6cuOVwnQnW+KHMB0fM0ep5nPI3C9bc1R3OanuJNg==
+
 tailwindcss@^1.9.5:
   version "1.9.6"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.9.6.tgz#0c5089911d24e1e98e592a31bfdb3d8f34ecf1a0"

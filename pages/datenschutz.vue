@@ -1,6 +1,6 @@
 <template>
   <BaseSection>
-    <h1 class="font-bold text-4xl mb-4">Datenschutzhinweise</h1>
+    <h1 class="font-bold text-4xl mb-4 hyphens-auto">Datenschutzhinweise</h1>
 
     <div class="leading-loose text-lg">
       <h2 class="privacy-headline">Allgemeine Hinweise</h2>
@@ -103,13 +103,15 @@
           Grundlage der Datenverarbeitung bildet Art.&nbsp;6&nbsp;Abs.&nbsp;1&nbsp;lit.&nbsp;b)&nbsp;DSGVO,
           der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen
           gestattet. Die Github Global Privacy Practices finden Sie hier:
-          <a
-            href="https://help.github.com/en/articles/global-privacy-practices"
-            target="_blank"
-            class="privacy-link"
-          >
-            https://help.github.com/en/articles/global-privacy-practices
-          </a>
+          <div>
+            <a
+              href="https://help.github.com/en/articles/global-privacy-practices"
+              target="_blank"
+              class="privacy-link break-all"
+            >
+              https://help.github.com/en/articles/global-privacy-practices
+            </a>
+          </div>
         </div>
       </div>
 

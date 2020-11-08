@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable global-require */
 module.exports = {
   theme: {
     fontSize: {
@@ -47,7 +49,9 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('tailwindcss-hyphens'),
+  ],
   purge: {
     enabled: process.env.NODE_ENV === 'production',
     content: [
