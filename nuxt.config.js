@@ -10,8 +10,20 @@ export default {
     title: 'Science Slam',
     meta: [
       { charset: 'utf-8' },
+      { name: 'title', content: 'Weitblick Science Slam Münster' },
+      { name: 'robots', content: 'index, follow' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      // eslint-disable-next-line max-len
+      { hid: 'description', name: 'description', content: 'Weitblick Münster veranstaltet jedes Semester einen Science Slam – dieses Mal auch im Live Stream. Sei dabei!' },
+
+      { property: 'og:type', content: 'website' },
+      { property: 'og:locale', content: 'de_DE' },
+      { property: 'og:url', content: 'https://slam.weitblicker.live' },
+      { property: 'og:title', content: 'Weitblick Science Slam Münster' },
+      // eslint-disable-next-line max-len
+      { property: 'og:description', content: 'Weitblick Münster veranstaltet jedes Semester einen Science Slam – dieses Mal auch im Live Stream. Sei dabei!' },
+      { property: 'og:image', content: 'https://slam.weitblicker.live/logo.jpg' },
+      { property: 'og:site_name', content: 'Science Slam' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
