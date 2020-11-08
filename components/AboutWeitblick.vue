@@ -3,12 +3,10 @@
     <h2 class="text-4xl font-bold mb-2">Über Weitblick</h2>
 
     <div class="flex flex-wrap-reverse md:flex-row-reverse">
-      <div class="w-full mt-12 lg:w-1/2 lg:mt-0 text-center relative">
-        <!-- TODO -->
+      <div class="w-full mt-12 lg:w-1/2 lg:mt-0 text-center lg:pl-4">
         <img
-          src=""
+          src="~/assets/images/weitblick/teaser.jpg"
           alt="Weitblick Gruppenfoto"
-          class="absolute m-auto inset-0"
         >
       </div>
 
