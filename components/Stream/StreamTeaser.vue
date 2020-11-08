@@ -2,13 +2,23 @@
   <BaseSection>
     <div class="w-full mb-4 text-center">
       <h2 class="text-4xl font-bold mb-2">Hier geht's zum Stream:</h2>
-      <p class="text-lg leading-loose">
-        Weitblick Münster veranstaltet jedes Semester einen Science Slam.
-        Junge Wissenschaft­ler*innen treten gegeneinander an und stellen ihre Forschung
-        innerhalb von 10 Minuten möglichst verständlich und unterhaltsam vor.
-        Ihr dürft entscheiden, wer diese Aufgabe am besten meistert.
-        Auch in Zeiten von Corona sind wir weiterhin aktiv – wir freuen uns auf dich!
-      </p>
+      <div class="text-lg leading-loose text-left">
+        <p>
+          Weitblick Münster veranstaltet jedes Semester einen Science Slam.
+          Junge Wissenschaft­ler*innen treten gegeneinander an und stellen ihre Forschung
+          innerhalb von 10 Minuten möglichst verständlich und unterhaltsam vor.
+          Ihr dürft entscheiden, wer diese Aufgabe am besten meistert.
+        </p>
+
+        <p>
+          Die Veranstaltung könnt ihr kostenlos im Livestream verfolgen.
+          Kostenlos? Ja, ihr habt richtig gehört! Ihr könnt den Livestream kostenlos aufrufen.
+          Statt wie gewohnt Tickets zu verkaufen, setzen wir bei diesem Science Slam auf zu einhundert Prozent
+          freiwillige Soli-Tickets. Mit einem Soli-Ticket unterstützt ihr Projekte für Bildungsgerechtigkeit
+          von Weitblick Münster. Mehr zu Weitblick erfahrt ihr weiter unten. Wir würden uns sehr über
+          eure Unterstützung freuen.
+        </p>
+      </div>
     </div>
 
     <div class="w-full text-center">
