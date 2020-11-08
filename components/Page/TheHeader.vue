@@ -139,6 +139,7 @@ export default {
         'duration-300',
         'mr-4',
         'w-fit-content',
+        'cursor-pointer',
         'lg:inline-block',
         'lg:mt-0',
         {
