@@ -47,6 +47,7 @@ export default {
     { src: '@/plugins/vue-countdown', mode: 'client' },
     { src: '@/plugins/vue-smooth-scroll', mode: 'client' },
     { src: '@/plugins/swiper', mode: 'client' },
+    { src: '@/plugins/directives/numeric-only', mode: 'client' },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -75,14 +76,18 @@ export default {
       solid: [
         'faArrowAltCircleDown',
         'faBars',
-        'faTimes',
+        'faMinus',
+        'faPlus',
         'faTicketAlt',
+        'faTimes',
+        'faTimesCircle',
       ],
       regular: [],
       brands: [
-        'faTwitter',
         'faFacebook',
         'faInstagram',
+        'faPaypal',
+        'faTwitter',
       ],
     },
   },
