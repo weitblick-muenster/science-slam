@@ -28,7 +28,7 @@
         v-for="product in products"
         :key="product.name"
       >
-        <td class="xsm:px-2 md:px-6 py-2 md:py-4 whitespace-no-wrap border-b border-gray-500">
+        <td class="xsm:px-2 md:px-6 py-2 md:py-4 text-left sm:whitespace-no-wrap border-b border-gray-500">
           <div class="flex items-center">
             <div>
               <div class="text-sm leading-5 text-gray-800">{{ product.fullName }}</div>
@@ -104,12 +104,13 @@ export default {
         ticket: 1,
         cake: 0,
         beer: 0,
+        science: 0,
       },
       products: [
         {
           name: 'ticket',
-          fullName: 'Ticket',
-          price: 4.5,
+          fullName: 'Virtuelles Ticket',
+          price: 2.9,
         },
         {
           name: 'cake',
@@ -118,8 +119,13 @@ export default {
         },
         {
           name: 'beer',
-          fullName: 'Finne Helles',
-          price: 2,
+          fullName: 'Bildungsbier',
+          price: 1.5,
+        },
+        {
+          name: 'science',
+          fullName: 'Für die Wissenschaft!',
+          price: 1,
         },
       ],
     };
