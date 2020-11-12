@@ -49,4 +49,22 @@
 
 .button-weitblick:hover {
   @apply bg-weitblick-dark;
-};
+}
+
+.button-gray {
+  @extend .button;
+  @apply bg-gray-500 text-white;
+}
+
+.button-gray:hover {
+  @apply bg-gray-700 text-white;
+}
+
+.button-gray-outlined {
+  @extend .button;
+  @apply text-gray-600 bg-white border border-gray-600;
+}
+
+.button-gray-outlined:hover {
+  @apply text-white bg-gray-600;
+}

@@ -29,22 +29,7 @@
             </div>
           </div>
 
-          <!-- <div class="w-full mt-12">
-            <a
-              class="button-primary flex items-center text-center justify-center max-w-xs"
-            >
-              <span class="flex items-center">
-                <FontAwesomeIcon
-                  icon="ticket-alt"
-                  class="inline-flex"
-                />
-              </span>
-
-              <span class="ml-2">
-                Soli Tickets!
-              </span>
-            </a>
-          </div> -->
+          <DonateButton />
         </div>
 
         <div class="items-center w-1/3 relative hidden lg:flex">

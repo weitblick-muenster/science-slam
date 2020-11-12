@@ -24,7 +24,7 @@ module.exports = {
       },
       colors: {
         primary: 'rgb(253, 235, 52)',
-        'primary-dark': '#F8E206',
+        'primary-dark': '#DDCB14',
         secondary: 'rgb(1, 32, 56)',
         'secondary-dark': '#030F27',
         weitblick: '#FF9900',
@@ -34,6 +34,8 @@ module.exports = {
         twitter: 'rgb(29, 161, 242)',
         facebook: '#4267B2',
         instagram: '#833AB4',
+        paypal: '#0079C1',
+        'paypal-dark': '#00457C',
       },
       boxShadow: {
         primary: '0 4px 0 rgb(253, 235, 52)',
