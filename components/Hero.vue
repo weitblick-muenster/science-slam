@@ -29,7 +29,7 @@
             </div>
           </div>
 
-          <DonateButton />
+          <!-- <DonateButton /> -->
         </div>
 
         <div class="items-center w-1/3 relative hidden lg:flex">
