@@ -21,11 +21,16 @@
     </template>
 
     <template #modal-content>
-      <p class="text-base text-black">
-        Die Veranstaltung könnt ihr kostenlos im Livestream verfolgen. Kostenlos? Ja, ihr habt richtig gehört!
-        Ihr könnt den Livestream kostenlos aufrufen. Statt wie gewohnt Tickets zu verkaufen,
-        setzen wir bei diesem Science Slam auf zu einhundert Prozent freiwillige Soli-Tickets.
-      </p>
+      <div class="text-base text-black">
+        <p class="mb-2">
+          Die ganze Veranstaltung ist zwar kostenlos, aber wir freuen uns über jede Unterstützung -
+          wie gewohnt mit Tickets und Kuchen, allerdings diesmal virtuell!
+        </p>
+        <p>
+          Alle Spendeneinnahmen kommen unseren Bildungsprojekten auf der ganzen Welt zu Gute.
+          Ein DANKE an jeden, der heute dabei ist.
+        </p>
+      </div>
 
       <DonateForm ref="donateForm" @amount-change="onAmountChange" />
       <PaypalForm ref="paypalForm" :amount="donateAmount" />
