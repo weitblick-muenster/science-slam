@@ -48,6 +48,7 @@ export default {
     { src: '@/plugins/vue-smooth-scroll', mode: 'client' },
     { src: '@/plugins/swiper', mode: 'client' },
     { src: '@/plugins/directives/numeric-only', mode: 'client' },
+    { src: '@/plugins/notification-plugin', mode: 'client' },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -76,13 +77,18 @@ export default {
       solid: [
         'faArrowAltCircleDown',
         'faBars',
+        'faExclamationTriangle',
         'faMinus',
         'faPlus',
         'faTicketAlt',
         'faTimes',
         'faTimesCircle',
       ],
-      regular: [],
+      regular: [
+        'faCheckCircle',
+        'faQuestionCircle',
+        'faTimesCircle',
+      ],
       brands: [
         'faFacebook',
         'faInstagram',
