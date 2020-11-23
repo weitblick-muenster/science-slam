@@ -24,7 +24,7 @@ export default {
   },
   data() {
     return {
-      streamStartsAt: '2020-11-23T19:00:00+00:00',
+      streamStartsAt: '2020-11-23T18:50:00+00:00',
     };
   },
   mounted() {

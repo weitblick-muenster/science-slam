@@ -3,7 +3,7 @@
     <iframe
       title="Stream"
       class="inline-block absolute top-0 left-0 w-full min-h-full mx-auto"
-      src="https://www.youtube-nocookie.com/embed/0p1jypeFYuw"
+      src="https://www.youtube.com/embed/0p1jypeFYuw"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     />
