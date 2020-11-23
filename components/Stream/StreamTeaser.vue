@@ -64,11 +64,11 @@ export default {
   },
   data() {
     return {
-      showStream: false,
+      showStream: true,
     };
   },
   created() {
-    this.showStream = new Date() >= new Date(this.startsAt);
+    // this.showStream = new Date() >= new Date(this.startsAt);
   },
   methods: {
     onCountdownEnd() {
