@@ -3,20 +3,26 @@
     <div class="w-full mb-4 text-center">
       <h2 class="text-4xl font-bold mb-2">Hier geht's zum Stream:</h2>
       <div class="text-lg leading-loose text-left">
-        <p>
-          Weitblick Münster veranstaltet jedes Semester einen Science Slam.
-          Junge Wissenschaft­ler*innen treten gegeneinander an und stellen ihre Forschung
-          innerhalb von 10 Minuten möglichst verständlich und unterhaltsam vor.
-          Ihr dürft entscheiden, wer diese Aufgabe am besten meistert.
+        <p class="mb-4">
+          Besondere Zeiten erfordern besondere Maßnahmen.
+          Auch in diesem Jahr starten wir die ScienceSlam-Saison wieder mit einem digitalen Slam.
+          Obwohl wir den Slam unter den normalen Bedingungen vermissen, wollen wir euch einen
+          neuen Slam mit neuen Themen und neuen Gesichtern nicht vorenthalten. Auch dieses Mal
+          hat sich das Team an die Gestaltung eines digitalen Slams gesetzt. Aktuell
+          laufen die Vorbereitungen auf Hochtouren und das Team ist hochmotiviert einen tollen
+          Slam auf die Beine zu stellen. Erneut treten junge Wissenschaftler*innen aus verschiedenen
+          Fachbereichen gegeneinander an und wollen euch ihr Forschungsthema näher bringen. Ihr dürft
+          entscheiden, wer diese Aufgabe am besten meistert. Um euch einzustimmen,
+          könnt ihr den letzten Slam unten noch einmal anschauen.
         </p>
 
         <p>
-          Die Veranstaltung könnt ihr kostenlos im Livestream verfolgen.
-          Kostenlos? Ja, ihr habt richtig gehört! Ihr könnt den Livestream kostenlos aufrufen.
-          Statt wie gewohnt Tickets zu verkaufen, setzen wir bei diesem Science Slam auf zu einhundert Prozent
-          freiwillige Soli-Tickets. Mit einem Soli-Ticket unterstützt ihr Projekte für Bildungsgerechtigkeit
-          von Weitblick Münster. Mehr zu Weitblick erfahrt ihr weiter unten. Wir würden uns sehr über
-          eure Unterstützung freuen.
+          Die Veranstaltung könnt ihr kostenlos im Livestream verfolgen. Kostenlos?
+          Ja, ihr habt richtig gehört! Ihr könnt den Livestream kostenlos aufrufen.
+          Statt wie gewohnt Tickets zu verkaufen, setzen wir bei diesem Science Slam auf zu einhundert
+          Prozent freiwillige Soli-Tickets. Mit einem Soli-Ticket unterstützt ihr Projekte
+          für Bildungsgerechtigkeit von Weitblick Münster. Mehr zu Weitblick erfahrt
+          ihr weiter unten. Wir würden uns sehr über eure Unterstützung freuen.
         </p>
       </div>
     </div>
