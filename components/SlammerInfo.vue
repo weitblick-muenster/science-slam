@@ -3,7 +3,11 @@
     <BaseSection>
       <h2 class="text-4xl font-bold mb-2">Unsere Themen</h2>
 
-      <div class="w-full flex flex-wrap">
+      <div v-if="toBeAnnounced" class="text-xl text-primary text-center w-full font-semibold tracking-wider mt-6 mb-24">
+        TO BE ANNOUNCED
+      </div>
+
+      <div v-else class="w-full flex flex-wrap">
         <ClientOnly>
           <Swiper :options="swiperOptions">
             <SwiperSlide
@@ -37,6 +41,8 @@ export default {
   },
   data() {
     return {
+      toBeAnnounced: true,
+
       swiperOptions: {
         loop: true,
         speed: 500,
