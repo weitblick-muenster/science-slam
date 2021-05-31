@@ -17,7 +17,7 @@
 
             <div class="w-fit-content">
               <div class="text-2xl md:text-4xl mt-8 font-semibold text-primary">
-                Am 23.&nbsp;November&nbsp;2020 um&nbsp;20&nbsp;Uhr
+                Am 15.&nbsp;Juni&nbsp;2021 um&nbsp;20&nbsp;Uhr
               </div>
               <div class="text-xl font-semibold float-right">
                 im Live Stream!
