@@ -1,50 +1,51 @@
 [
   {
-    "position": 2,
-    "name": "Dirk Arne Heyen",
-    "slug": "dirk-arne-heyen",
-    "age": 35,
-    "subjectArea": "Umweltpolitik",
-    "slamTitle": "Nachhaltigkeit braucht Suffizienz braucht Politik",
-    "social": {
-      "twitter": "DAHeyen"
-    },
-    "biography": "Ich arbeite seit 2011 als wissenschaftlicher Mitarbeiter am Öko-Institut (Berliner Büro). In meiner Forschung beschäftige ich mich mit sozialwissenschaftlichen Aspekten von Umweltpolitik und gesellschaftlichem Wandel. Ich habe Politikwissenschaft studiert und außerdem noch einen Master in „Environmental Regulation“.<br>Im Herbst 2019 nahm ich zum ersten Mal an einem Science Slam teil, bei dem ich von der Moderatorin u.a. gefragt wurde: „Wenn die Umwelt beim Psychologen auf der Bank liegen würde, was würdest du diagnostizieren?“ Über die Frage denke ich noch heute regelmäßig nach…"
-  },
-  {
     "position": 1,
-    "name": "Janina Otto",
-    "slug": "janina-otto",
-    "age": 30,
-    "subjectArea": "Humanbiologie",
-    "slamTitle": "Der Staat bin ich – Haben Bakterien eine Wahl?",
+    "name": "Kathrin Viergutz",
+    "slug": "kathrin-viergutz",
+    "age": null,
+    "subjectArea": "Mobilitätsforschung (Deutsches Zentrum für Luft- und Raumfahrt) ",
+    "slamTitle": "Witze über Bus und Bahn sind nicht leicht – man weiß nie ob die ankommen",
     "social": {
-      "twitter": "ja_0t",
-      "facebook": "JaninaExplainsItAll",
-      "instagram": "JaninaExplainsItAll"
+      "instagram": "kathrin_viergutz",
+      "homepage": "http://kathrinviergutz.de/"
     },
-    "biography": "Ich habe meinen Bachelor in Biochemie sowie meinen Master in Humanbiologie abgeschlossen. Aktuell promoviere ich an der Philipps-Universität Marburg im Fachbereich Humanbiologie zum Thema Insulinresistenz bei Schlafapnoe.<br>Ich stehe seit 2015 als Science Slamerin sowohl in Deutschland als auch im Ausland auf der Bühne z.B. in Mexiko und Russland. Das Thema Wissenschaftskommunikation liegt mir seitdem besonders am Herzen und so engagiere ich mich auch in Formaten im TV, Radio und Internet."
+    "biography": "104 Tage wartet jede:r von uns im Laufe des Lebens auf Bus und Bahn. In der Zeit könnten wir 39 mal alle Staffeln Game of Thrones bingen. In meinem Slam können wir uns alle mal kollektiv über die Öffis aufregen.<br>Mein Slam ist außerdem eine Liebeserklärung an die Fahrpläne und Liniennetze dieser Welt. Als Mobilitätsforscherin kenne ich mich zwar nicht von A bis Z aus, dafür aber umso besser von A nach B. Denn ich befasse mich damit, wie wir uns fortbewegen und wie wir in Zukunft mobil sein wollen. Ich promoviere am Deutschen Zentrum für Luft- und Raumfahrt, Institut für Verkehrssystemtechnik, zu Mobilitätssystemen, die unser Leben besser machen."
   },
   {
-    "position": 4,
-    "name": "Christoph Köhn",
-    "slug": "christoph-koehn",
-    "age": 36,
-    "subjectArea": "Astrophysik und Atmosphärische Physik",
-    "slamTitle": "Das Universum mit zwei Zeitdimensionen.",
-    "social": null,
-    "biography": "Nach meinem Studium der Physik an der Christian-Albrechts-Universtiät zu Kiel und an der Universität Hamburg, promovierte ich am CWI in Amsterdam über Gasentladungen. Seit 2015 arbeite ich an der Technischen Universität Dänemarks (DTU) in der Nähe von Kopenhagen.<br>Momentan arbeite ich dort als Seniorforscher im Bereich \"Theoretische Physik\". Dabei fokussiere ich mich überwiegend auf Atmosphären- und Astrophyik und beschäftige mich neben Blitzen auch mit eher fundamentalen Fragen über das Universum als Ganzes. In meiner Freizeit zocke ich Videospiele, lese oder spiele Basketball und Fußball. Das ist mein erster Slam und ich bin gespannt, wie es laufen wird."
+    "position": 2,
+    "name": "Hendrik Steinbeck",
+    "slug": "hendrik-steinbeck",
+    "age": null,
+    "subjectArea": "Wirtschaftsinformatik (Universität Potsdam) ",
+    "slamTitle": "Zwischen YouTube, PowerPoint und Zoomsitzungen - Wie (unterschiedlich) lernen Studierende?",
+    "social": {
+      "twitter": "h_steinbeck"
+    },
+    "biography": "Erst ging es mir darum, mal \"raus\" zu kommen, und mehr als nur Literaturrecherche in der Uni-Bib durchzuführen. Mittlerweile habe ich mein Forschungsfeld rund um das digitale Lernen gefunden und fokussiere in meinem Slam die studentische Lernperspektive – die meiner Meinung nach zu wenig involviert wird."
   },
   {
     "position": 3,
-    "name": "Ronja Lau",
-    "slug": "ronja-lau",
-    "age": 26,
-    "subjectArea": "Prähistorische Archäologie",
-    "slamTitle": "Die hatten doch nur Kartoffelsäcke!?",
+    "name": "Felix Strieth-Kalthoff",
+    "slug": "felix-strieth-kalthoff",
+    "age": null,
+    "subjectArea": "Chemie (WWU Münster)",
+    "slamTitle": "Per Anhalter durch die chemische Galaxis",
     "social": {
-      "instagram": "_ronja_lau_"
+      "twitter": "felix_s_k"
     },
-    "biography": "Seit meinem Bachelor Studium beschäftige ich mich intensiv mit der textilarchäologischen Analyse prähistorischer Gewebe in großen Teilen Mittel- und Osteuropas.<br>Das Thema meines Slams „Die hatten doch nur Kartoffelsäcke!?“ basiert auf meiner Masterarbeit zu eisenzeitlichen Textilien aus Slowenien, die fast 3000 Jahre alt sind.<br>Zusätzlich versuche ich mit Rekonstruktionen, Living History und Science Slams meine Forschung transparent zu vermitteln. Aktuell bin ich Doktorandin an der Ruhr Universität Bochum (Bergbauarchäologie) und erforsche eisenzeitliche Textilien aus dem Salzbergwerk Dürrnberg in Österreich."
+    "biography": "Von 2012 bis 2017 habe ich Chemie studiert – jetzt stehe ich (hoffentlich) kurz vor dem Abschluss meiner Promotion am Organisch-Chemischen Institut in Münster. Hierbei beschäftige ich mich mit der Entdeckung und Entwicklung neuartiger chemischer Reaktionen. Zuletzt haben wir dafür auch Methoden der künstlichen Intelligenz genutzt, um die unendliche Galaxie möglicher Stoffe und Reaktionen zu erkunden.<br>Seit vielen Jahren engagiere ich mich zudem für die Förderung des wissenschaftlichen Nachwuchses und die Kommunikation wissenschaftlicher Fragestellungen. Mit einem Science Slam betrete ich für mich persönlich allerdings Neuland. Ich freue mich sehr darauf – das Ausprobieren neuer Dinge gehört schließlich zu den Aufgaben eines Chemikers!"
+  },
+  {
+    "position": 4,
+    "name": "Philipp Löhler",
+    "slug": "philipp-loehler",
+    "age": 22,
+    "subjectArea": "Elektrotechnik (Universität Duisburg-Essen)",
+    "slamTitle": "Mach dir doch dein Aktionspotential wie du willst - wie lässt sich das Auge überlisten?",
+    "social": {
+      "instagram": "muck98"
+    },
+    "biography": "Nachdem ich dieses Jahr meinen Master in Elektrotechnik abgeschlossen habe, arbeite ich seit Anfang April an der Uni Duisburg-Essen als Doktorand innerhalb des Graduiertenkollegs \"Artificial Vision\".<br>Mein Forschungsthema, um das sich auch das Thema meines Slams dreht, ist die Entwicklung einer bidirektionalen Stimulationsschaltung für die Retina. Bidirektional, das heißt in diesem Fall, dass die Schaltung die Netzhautzellen zuerst elektrisch stimuliert, um danach die generierten Aktionspotentiale auszulesen und den Erfolg der Stimulation bewerten zu können. Richtig cool wird es erst dann, wenn man das Ganze noch mit einem nichtlinearen Prädikator versieht, der durch Rückkopplung mit den Stimulationsparametern eine adaptive Stimulation ermöglicht. Wer bei den letzten Wörtern nur Bahnhof verstanden hat, kann sich auf jeden Fall schonmal auf den Slam freuen, bei dem das alles (hoffentlich) etwas anschaulicher wird."
   }
 ]

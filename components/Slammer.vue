@@ -18,12 +18,16 @@
           <a
             v-if="slammer.social[socialMediaProvider]"
             :key="`${slammer.slug}_${socialMediaProvider}_${slammer.social[socialMediaProvider]}`"
-            :href="`https://${socialMediaProvider}.com/${slammer.social[socialMediaProvider]}`"
+            :href="socialMediaLink(socialMediaProvider)"
             target="_blank"
             :class="socialMediaCssClasses(socialMediaProvider)"
           >
-            <FontAwesomeIcon :icon="['fab', socialMediaProvider]" style="display: block" class="fa-lg fa-w-16" />
-            <span class="hidden">{{ socialMediaProvider }}</span>
+            <FontAwesomeIcon
+              :icon="socialMediaIcon(socialMediaProvider)"
+              style="display: block"
+              class="fa-lg fa-w-16"
+            />
+            <span class="sr-only">{{ socialMediaProvider }}</span>
           </a>
         </template>
       </div>
@@ -34,7 +38,7 @@
         <span class="uppercase">{{ slammer.slamTitle }}</span>
       </h2>
 
-      <h3 class="text-xl">{{ `${slammer.name}, ${slammer.age}` }}</h3>
+      <h3 class="text-xl">{{ `${slammer.name}${slammer.age ? `, ${slammer.age}` : '' }` }}</h3>
       <div class="text-gray-600 text-lg">
         <span>Fachbereich:</span>
         <span>{{ slammer.subjectArea }}</span>
@@ -61,10 +65,20 @@ export default {
   },
   data() {
     return {
-      socialMediaProviders: ['twitter', 'instagram', 'facebook'],
+      socialMediaProviders: ['homepage', 'twitter', 'instagram', 'facebook'],
     };
   },
   methods: {
+    socialMediaLink(provider) {
+      if (provider === 'homepage') return this.slammer.social.homepage;
+
+      return `https://${provider}.com/${this.slammer.social[provider]}`;
+    },
+    socialMediaIcon(provider) {
+      if (provider === 'homepage') return ['fas', 'globe'];
+
+      return ['fab', provider];
+    },
     socialMediaCssClasses(provider) {
       return [
         'text-center',
@@ -82,6 +96,8 @@ export default {
           'hover:bg-instagram': provider === 'instagram',
           'text-facebook': provider === 'facebook',
           'hover:bg-facebook': provider === 'facebook',
+          'text-blue-700': provider === 'homepage',
+          'hover:bg-blue-700': provider === 'homepage',
         },
       ];
     },

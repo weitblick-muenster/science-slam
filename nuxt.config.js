@@ -78,6 +78,7 @@ export default {
         'faArrowAltCircleDown',
         'faBars',
         'faExclamationTriangle',
+        'faGlobe',
         'faMinus',
         'faPlus',
         'faTicketAlt',
