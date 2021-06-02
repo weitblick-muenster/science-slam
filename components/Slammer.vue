@@ -34,7 +34,7 @@
         <span class="uppercase">{{ slammer.slamTitle }}</span>
       </h2>
 
-      <h3 class="text-xl">{{ `${slammer.name}, ${slammer.age}` }}</h3>
+      <h3 class="text-xl">{{ `${slammer.name}${slammer.age ? `, ${slammer.age}` : '' }` }}</h3>
       <div class="text-gray-600 text-lg">
         <span>Fachbereich:</span>
         <span>{{ slammer.subjectArea }}</span>
