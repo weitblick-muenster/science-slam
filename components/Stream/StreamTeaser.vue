@@ -8,7 +8,7 @@
           Auch in diesem Jahr starten wir die Science-Slam-Saison wieder mit einem digitalen Slam.
           Obwohl wir den Slam unter den normalen Bedingungen vermissen, wollen wir euch einen
           neuen Slam mit neuen Themen und neuen Gesichtern nicht vorenthalten. Auch dieses Mal
-          hat sich das Team an die Gestaltung eines digitalen Slams gesetzt. Aktuell
+          hat sich das Team an die Gestaltung eines digitalen Slams live aus der Hafenkäserei gesetzt. Aktuell
           laufen die Vorbereitungen auf Hochtouren und das Team ist hochmotiviert einen tollen
           Slam auf die Beine zu stellen. Erneut treten junge Wissenschaftler*innen aus verschiedenen
           Fachbereichen gegeneinander an und wollen euch ihr Forschungsthema näher bringen. Ihr dürft
