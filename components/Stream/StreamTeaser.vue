@@ -20,7 +20,7 @@
           Die Veranstaltung könnt ihr kostenlos im Livestream verfolgen. Kostenlos?
           Ja, ihr habt richtig gehört! Ihr könnt den Livestream kostenlos aufrufen.
           Statt wie gewohnt Tickets zu verkaufen, setzen wir bei diesem Science Slam auf zu einhundert
-          Prozent freiwillige Spende. Mit einer Spende unterstützt ihr den Schulbau in Benin.
+          Prozent freiwillige Spenden. Mit einer Spende unterstützt ihr den Schulbau in Benin.
           Mehr zu Weitblick erfahrt ihr weiter unten. Wir würden uns sehr über eure Unterstützung freuen.
         </p>
       </div>
