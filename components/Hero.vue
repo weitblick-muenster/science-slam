@@ -17,19 +17,20 @@
 
             <div class="w-fit-content">
               <div class="text-2xl md:text-4xl mt-8 font-semibold text-primary">
-                Am 15.&nbsp;Juni&nbsp;2021 um&nbsp;20&nbsp;Uhr
+                Am 29.&nbsp;November&nbsp;2022 um&nbsp;20&nbsp;Uhr
               </div>
-              <div class="text-xl font-semibold float-right">
-                im Live Stream!
-                <FontAwesomeIcon
+              <div class="text-base sm:text-xl font-semibold sm:text-right">
+                <span>im Hörsaal&nbsp;H1,</span>
+                <span>Schlossplatz&nbsp;46, 48143&nbsp;Münster</span>
+                <!-- <FontAwesomeIcon
                   icon="arrow-alt-circle-down"
                   class="fa-lg"
-                />
+                /> -->
               </div>
+
+              <DonateButton />
             </div>
           </div>
-
-          <DonateButton />
         </div>
 
         <div class="items-center w-1/3 relative hidden lg:flex">
@@ -40,11 +41,11 @@
           >
         </div>
 
-        <img
+        <!-- <img
           src="~/assets/images/science-slam/logo.png"
           alt="Logo"
           class="hidden sm:block md:hidden absolute w-48 top-0 right-0 m-auto"
-        >
+        > -->
       </div>
     </div>
   </div>

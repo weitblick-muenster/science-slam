@@ -3,24 +3,28 @@
     "position": 1,
     "slug": "geo",
     "name": "GEO",
-    "link": "https://www.geo.de/"
+    "link": "https://www.geo.de/",
+    "active": false
   },
   {
     "position": 2,
     "slug": "hafenkaeserei",
     "name": "Hafenkäserei",
-    "link": "https://hafenkaeserei.de/"
+    "link": "https://hafenkaeserei.de/",
+    "active": false
   },
   {
     "position": 3,
     "slug": "sparkasse",
     "name": "Sparkasse Münsterland Ost",
-    "link": "https://www.sparkasse-muensterland-ost.de/de/home.html"
+    "link": "https://www.sparkasse-muensterland-ost.de/de/home.html",
+    "active": true
   },
   {
     "position": 4,
     "slug": "eppendorf",
     "name": "Eppendorf AG",
-    "link": "https://www.eppendorf.com/de-de/"
+    "link": "https://www.eppendorf.com/de-de/",
+    "active": false
   }
 ]

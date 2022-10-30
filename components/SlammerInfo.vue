@@ -41,7 +41,7 @@ export default {
   },
   data() {
     return {
-      toBeAnnounced: false,
+      toBeAnnounced: true,
 
       swiperOptions: {
         loop: true,

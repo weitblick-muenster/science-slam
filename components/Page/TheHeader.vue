@@ -9,7 +9,7 @@
           <img
             src="~/assets/images/science-slam/logo.png"
             alt="Logo"
-            class="w-16 mr-2"
+            class="h-12 w-auto mr-2"
           >
           <span :class="logoTextCssClasses">SCIENCE SLAM</span>
         </a>
@@ -64,9 +64,13 @@ export default {
     return {
       showMobileMenu: false,
       linkedSections: [
+        // {
+        //   title: 'Stream',
+        //   containerId: 'stream',
+        // },
         {
-          title: 'Stream',
-          containerId: 'stream',
+          title: 'Die Idee',
+          containerId: 'idee',
         },
         {
           title: 'Unsere Themen',

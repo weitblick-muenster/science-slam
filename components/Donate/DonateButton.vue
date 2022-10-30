@@ -1,23 +1,42 @@
 <template>
-  <div class="w-full mt-12">
-    <a
-      href="https://www.betterplace.org/de/projects/40094-weitblick-muenster-schulbau-benin"
-      target="_blank"
-      type="button"
-      class="button-primary flex items-center text-center justify-center max-w-xs
-        h-12 mx-auto sm:float-left"
-    >
-      <span class="flex items-center">
-        <FontAwesomeIcon
+  <div class="w-full mt-8 lg:mt-12 text-center sm:text-left">
+    <div className="w-full sm:flex sm:space-y-4 sm:space-x-4">
+      <a
+        href="https://weitblickmnstertickets.ticket.io/0gnfxr4g/?"
+        target="_blank"
+        role="button"
+        class="button-primary inline-flex justify-center focus:outline-none mb-4 sm:mr-4"
+      >
+        <span class="flex items-center">
+          <FontAwesomeIcon
+            icon="ticket-alt"
+            class="inline-flex fa-lg"
+          />
+        </span>
+
+        <span class="ml-2">
+          Ticketverkauf
+        </span>
+      </a>
+
+      <a
+        href="https://www.betterplace.org/de/projects/40094-weitblick-muenster-schulbau-benin"
+        target="_blank"
+        role="button"
+        class="button-primary inline-flex justify-center focus:outline-none"
+        >
+        <span class="flex items-center">
+          <FontAwesomeIcon
           icon="hand-holding-usd"
           class="inline-flex fa-lg"
-        />
-      </span>
+          />
+        </span>
 
-      <span class="ml-2">
-        Hier Spenden
-      </span>
-    </a>
+        <span class="ml-2">
+          Hier Spenden
+        </span>
+      </a>
+    </div>
 
     <!-- <button
       type="button"

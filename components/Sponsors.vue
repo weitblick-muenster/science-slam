@@ -4,7 +4,7 @@
 
     <div class="flex flex-wrap w-full md:justify-around justify-center">
       <div
-        v-for="sponsor in sponsors"
+        v-for="sponsor in activeSponsors"
         :key="sponsor.slug"
         class="m-8 mb-12 inline-flex"
       >
@@ -31,6 +31,12 @@ export default {
     sponsors: {
       type: Array,
       required: true,
+    },
+  },
+  computed: {
+    activeSponsors() {
+      const sponsors = Array.isArray(this.sponsors) ? this.sponsors : [this.sponsors];
+      return sponsors.filter((sponsor) => sponsor.active);
     },
   },
 };

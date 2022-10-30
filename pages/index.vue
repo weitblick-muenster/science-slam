@@ -1,7 +1,8 @@
 <template>
   <div>
     <Hero />
-    <StreamTeaser id="stream" :startsAt="streamStartsAt" />
+    <!-- <StreamTeaser id="stream" :startsAt="streamStartsAt" /> -->
+    <Intro id="idee" />
     <SlammerInfo id="themen" :slammers="slammers" />
     <AboutWeitblick id="ueber-weitblick" />
     <FollowUs />
