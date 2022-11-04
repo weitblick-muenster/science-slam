@@ -10,15 +10,13 @@
 
         <h3 class="text-xl font-extrabold mb-2">Das Prinzip</h3>
         <p>
-          Besondere Zeiten erfordern besondere Maßnahmen.
-          Auch in diesem Jahr starten wir die Science-Slam-Saison wieder mit einem digitalen Slam.
-          Obwohl wir den Slam unter den normalen Bedingungen vermissen, wollen wir euch einen
-          neuen Slam mit neuen Themen und neuen Gesichtern nicht vorenthalten. Auch dieses Mal
-          hat sich das Team an die Gestaltung eines digitalen Slams live aus der Hafenkäserei gesetzt. Aktuell
-          laufen die Vorbereitungen auf Hochtouren und das Team ist hochmotiviert einen tollen
-          Slam auf die Beine zu stellen. Erneut treten junge Wissenschaftler*innen aus verschiedenen
-          Fachbereichen gegeneinander an und wollen euch ihr Forschungsthema näher bringen. Ihr dürft
-          entscheiden, wer diese Aufgabe am besten meistert.
+          Junge Wissenschaftler*innen treten gegeneinander an und stellen ihre
+          Forschung vor. 10 Minuten haben sie Zeit, um aktuelle Forschung
+          unterhaltsam und packend zu präsentieren. Das Publikum kürt den
+          Slam-Champion, der dann am Ende das &quot;Goldene Gehirn&quot; mit nach Hause
+          nimmt! Dabei kommt es nicht allein aufs Thema an. Die Präsentation
+          macht&apos;s: Für Laien verständlich und möglichst spannend. Sei dabei beim
+          Kampf der Hirne!
         </p>
       </div>
     </div>
