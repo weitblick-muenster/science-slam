@@ -14,7 +14,7 @@
           target="_blank"
         >
           <img
-            :src="require(`~/assets/images/sponsors/${sponsor.slug}.png`)"
+            :src="require(`~/assets/images/sponsors/${sponsor.slug}.${sponsor.logoFileType.toLowerCase()}`)"
             :alt="sponsor.name"
             class="h-16 md:h-24 max-w-full"
           >
@@ -35,8 +35,7 @@ export default {
   },
   computed: {
     activeSponsors() {
-      const sponsors = Array.isArray(this.sponsors) ? this.sponsors : [this.sponsors];
-      return sponsors.filter((sponsor) => sponsor.active);
+      return this.sponsors.filter((sponsor) => sponsor.active);
     },
   },
 };
