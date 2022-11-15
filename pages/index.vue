@@ -3,7 +3,8 @@
     <Hero />
     <!-- <StreamTeaser id="stream" :startsAt="streamStartsAt" /> -->
     <Intro id="idee" />
-    <SlammerInfo id="themen" :slammers="slammers" />
+    <!-- <SlammerInfo id="themen" :slammers="slammers" /> -->
+    <Program id="programm" :program="program" />
     <AboutWeitblick id="ueber-weitblick" />
     <FollowUs />
     <Sponsors id="sponsoren" :sponsors="sponsors" />
@@ -17,10 +18,12 @@ export default {
   async asyncData({ $content }) {
     const slammers = await $content('/slammers').sortBy('position', 'asc').fetch();
     const sponsors = await $content('/sponsors').sortBy('position', 'asc').fetch();
+    const program = await $content('/program').sortBy('position', 'asc').fetch();
 
     return {
-      slammers,
-      sponsors,
+      slammers: Array.isArray(slammers) ? slammers : [slammers],
+      sponsors: Array.isArray(sponsors) ? sponsors : [sponsors],
+      program: Array.isArray(program) ? program : [program],
     };
   },
   data() {

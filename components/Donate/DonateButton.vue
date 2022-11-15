@@ -1,11 +1,11 @@
 <template>
   <div class="w-full mt-8 lg:mt-12 text-center sm:text-left">
-    <div className="w-full sm:flex sm:space-y-4 sm:space-x-4">
+    <div class="w-full sm:flex space-y-4 sm:space-y-0 sm:space-x-4">
       <a
         href="https://weitblickmnstertickets.ticket.io/0gnfxr4g/?"
         target="_blank"
         role="button"
-        class="button-primary inline-flex justify-center focus:outline-none mb-4 sm:mr-4"
+        class="button-primary inline-flex justify-center focus:outline-none"
       >
         <span class="flex items-center">
           <FontAwesomeIcon

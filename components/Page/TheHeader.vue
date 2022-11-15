@@ -73,9 +73,13 @@ export default {
           containerId: 'idee',
         },
         {
-          title: 'Unsere Themen',
-          containerId: 'themen',
+          title: 'Unser Programm',
+          containerId: 'programm',
         },
+        // {
+        //   title: 'Unsere Themen',
+        //   containerId: 'themen',
+        // },
         {
           title: 'Über Weitblick',
           containerId: 'ueber-weitblick',
