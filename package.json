@@ -42,7 +42,7 @@
     "gh-pages": "^4.0.0",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.1",
-    "imagemin-svgo": "^8.0.0",
+    "imagemin-svgo": "^12.0.0",
     "sass": "^1.29.0",
     "sass-loader": "^10.1.0",
     "tailwindcss-hyphens": "^0.1.0"
